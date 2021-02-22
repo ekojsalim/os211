@@ -38,4 +38,5 @@ module.exports = withBundleAnalyzer({
     return config
   },
   assetPrefix: process.env.NODE_ENV === "production" ? "https://ekojs.com/os211/" : "",
+  basePath: "/os211",
 })
