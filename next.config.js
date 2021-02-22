@@ -37,5 +37,5 @@ module.exports = withBundleAnalyzer({
 
     return config
   },
-  assetPrefix: process.env.DEPLOY_TARGET === "gh-pages" ? "/ekojs.com/os211/" : "",
+  assetPrefix: process.env.NODE_ENV === "production" ? "https://ekojs.com/os211/" : "",
 })
