@@ -1,17 +1,13 @@
 {
-  "title": "Next.js Starter Blog",
-  "author": "Tails Azimuth",
-  "headerTitle": "TailwindBlog",
-  "description": "A blog created with Next.js and Tailwind.css",
+  "title": "OS211",
+  "author": "Eko Julianto Salim",
+  "headerTitle": "OS211",
+  "description": "Operating Systems 2021-1",
   "language": "en-us",
-  "siteUrl": "https://tailwind-nextjs-starter-blog.vercel.app",
-  "siteRepo": "https://github.com/timlrx/tailwind-nextjs-starter-blog",
-  "image": "/static/images/avatar.png",
+  "siteUrl": "https://ekojsalim.github.io/os212/",
+  "siteRepo": "https://github.com/ekojsalim/os212/",
+  "image": "/static/images/avatar.jpeg",
   "socialBanner": "/static/images/twitter-card.png",
-  "email": "address@yoursite.com",
-  "github": "https://github.com",
-  "twitter": "https://twitter.com/Twitter",
-  "facebook": "https://facebook.com",
-  "youtube": "https://youtube.com",
-  "linkedin": "https://www.linkedin.com"
+  "email": "eko@ekojs.com",
+  "github": "https://github.com/ekojsalim"
 }

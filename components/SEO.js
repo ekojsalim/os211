@@ -1,11 +1,11 @@
-import { NextSeo, ArticleJsonLd } from 'next-seo'
-import siteMetadata from '@/data/siteMetadata'
+import { NextSeo, ArticleJsonLd } from "next-seo"
+import siteMetadata from "@/data/siteMetadata"
 
 export const SEO = {
   title: siteMetadata.title,
   description: siteMetadata.description,
   openGraph: {
-    type: 'website',
+    type: "website",
     locale: siteMetadata.language,
     url: siteMetadata.siteUrl,
     title: siteMetadata.title,
@@ -22,11 +22,11 @@ export const SEO = {
   twitter: {
     handle: siteMetadata.twitter,
     site: siteMetadata.twitter,
-    cardType: 'summary_large_image',
+    cardType: "summary_large_image",
   },
   additionalMetaTags: [
     {
-      name: 'author',
+      name: "author",
       content: siteMetadata.author,
     },
   ],
@@ -53,7 +53,7 @@ export const BlogSeo = ({ title, summary, date, lastmod, url, tags, images = [] 
   let imagesArr =
     images.length === 0
       ? [siteMetadata.socialBanner]
-      : typeof images === 'string'
+      : typeof images === "string"
       ? [images]
       : images
 
@@ -71,7 +71,7 @@ export const BlogSeo = ({ title, summary, date, lastmod, url, tags, images = [] 
         description={summary}
         canonical={url}
         openGraph={{
-          type: 'article',
+          type: "article",
           article: {
             publishedTime: publishedAt,
             modifiedTime: modifiedAt,
@@ -85,7 +85,7 @@ export const BlogSeo = ({ title, summary, date, lastmod, url, tags, images = [] 
         }}
         additionalMetaTags={[
           {
-            name: 'twitter:image',
+            name: "twitter:image",
             content: featuredImages[0].url,
           },
         ]}
