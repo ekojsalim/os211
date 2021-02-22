@@ -7,6 +7,7 @@
     "dev": "next dev",
     "build": "next build && node ./scripts/generate-sitemap",
     "serve": "next start",
+    "export": "next export",
     "analyze": "ANALYZE=true next build"
   },
   "dependencies": {

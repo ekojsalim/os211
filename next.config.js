@@ -37,4 +37,7 @@ module.exports = withBundleAnalyzer({
 
     return config
   },
+  assetPrefix: {
+    assetPrefix: process.env.DEPLOY_TARGET === "gh-pages" ? "/ekojsalim.github.io/os211/" : "",
+  },
 })
