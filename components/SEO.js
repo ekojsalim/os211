@@ -10,20 +10,20 @@ export const SEO = {
     url: siteMetadata.siteUrl,
     title: siteMetadata.title,
     description: siteMetadata.description,
-    images: [
-      {
-        url: `${siteMetadata.siteUrl}${siteMetadata.socialBanner}`,
-        alt: siteMetadata.title,
-        width: 1200,
-        height: 600,
-      },
-    ],
+    // images: [
+    //   {
+    //     url: `${siteMetadata.siteUrl}${siteMetadata.socialBanner}`,
+    //     alt: siteMetadata.title,
+    //     width: 1200,
+    //     height: 600,
+    //   },
+    // ],
   },
-  twitter: {
-    handle: siteMetadata.twitter,
-    site: siteMetadata.twitter,
-    cardType: "summary_large_image",
-  },
+  // twitter: {
+  //   handle: siteMetadata.twitter,
+  //   site: siteMetadata.twitter,
+  //   cardType: "summary_large_image",
+  // },
   additionalMetaTags: [
     {
       name: "author",
@@ -81,7 +81,7 @@ export const BlogSeo = ({ title, summary, date, lastmod, url, tags, images = [] 
           url,
           title,
           description: summary,
-          images: featuredImages,
+          // images: featuredImages,
         }}
         additionalMetaTags={[
           {
