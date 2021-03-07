@@ -1,0 +1,13 @@
+title:       "Operating Systems 2021-1 (OS211)"
+description: "[Insert Description Here, jk :)]"
+author:           "Eko Julianto Salim"
+address:          "Jakarta"
+sitemap:          "true"
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+urlweb:           "https://ekojs.com/os211/"
+urlgithub:        "https://github.com/ekojsalim/os211/"
+urlghpage:        "https://ekojsalim.github.io/os211/"
+keywords:         "jekyll, os211"
+github:           [metadata]
