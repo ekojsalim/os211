@@ -13,3 +13,4 @@ ZCZC W01   5 L15 Assignment #5
 ZCZC W01  50 L17 Assignment #7
 ZCZC W01  20 L18 Assignment #8
 ZCZC W01  20 L05 GSGS related
+ZCZC W01  20 L06 Reading References/Books/Documents: OSC Book
