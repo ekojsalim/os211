@@ -2,3 +2,7 @@
 ZCZC W01 Etyaresa
 ZCZC W01 faustaadp
 ZCZC W01 faishol01
+ZCZC W02 faishol01
+ZCZC W02 faustaadp
+ZCZC W02 fadhilrasendriya
+
