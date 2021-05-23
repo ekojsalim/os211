@@ -20,3 +20,6 @@ ZCZC W06 faishol01
 ZCZC W07 faustaadp
 ZCZC W07 Etyaresa
 ZCZC W07 Exqrch
+ZCZC W08 faustaadp
+ZCZC W08 faishol01
+ZCZC W08 Exqrch
